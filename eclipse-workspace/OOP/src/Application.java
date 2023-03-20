@@ -1,4 +1,4 @@
-import java.util.List;
+
 public class Application {
 
 	public static void main(String[] args) {
@@ -38,8 +38,7 @@ public class Application {
 		halo.price = 49.99;
 		RPG skyrim = new RPG();
 		skyrim.name = "Skyrim"; skyrim.release = 2012; 
-		skyrim.price = 30.00;
-		halo.printName();
+		skyrim.price = 35.00;
 		System.out.println(halo.actiePrijs());
 		halo.updateTime = halo.update(2);
 		System.out.println(halo.updateTime);
